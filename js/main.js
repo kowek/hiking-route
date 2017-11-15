@@ -21,7 +21,7 @@ map.attributionControl.addAttribution("Routes data from <a href=\"https://www.al
 
 
 //adding a base maps 
-var landscape = L.tileLayer('http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png', {
+var landscape = L.tileLayer('http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=da0654cb94c64e4588b744d40b02b2dd', {
 	attribution: 'Tiles from Thunderforest'}).addTo(map);
 
 
