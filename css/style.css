@@ -1,0 +1,130 @@
+/*implementing additional font (Amatic SC)*/
+@font-face {
+    font-family: 'amatic_scregular';
+    src: url('amaticsc-regular-webfont.woff2') format('woff2'),
+         url('amaticsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amaticbold';
+    src: url('amatic-bold-webfont.woff2') format('woff2'),
+         url('amatic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 5px;
+}
+
+
+/*map style properties*/
+#map {
+	display: block;
+	height: 600px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid maroon;
+	border-radius: 8px;
+}
+
+/*maroon titles' style*/
+.newbold {
+	text-align: center;
+	font-family: "amatic_scregular";
+	color: maroon;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+/*popup properties*/
+.point_pop{
+	text-align: center;
+	font-family: "amatic_scregular";
+	color: black;
+	font-size: 18px;
+	line-height: 40%;
+	padding-top: 5px;
+}
+
+
+.point_pop img{
+	margin-top: 15px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 5px; 
+	height: 200px;
+	width: 200px;
+}
+
+/*top-right infobox style*/
+.info {
+    padding: 10px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.container img{
+	padding-top: 10px;
+	height: 120px;
+	padding-bottom: 10px;
+}	
+
+.container {
+	text-align: center;
+	padding-top: 5px
+}
+
+
+/*legend style*/
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 24px;
+    height: 3px;
+    float: left;
+    margin-right: 8px;
+	margin-top: 8px;
+    opacity: 0.7;
+}
+
+/*custom style for viewpoint popups*/	
+.custom	.leaflet-popup-tip-container {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	left: -4%;
+	top: 10%;
+	margin-left: -20px;
+	overflow: hidden;
+	pointer-events: none;
+	
+		-webkit-transform: rotate(90deg);
+	   -moz-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	     -o-transform: rotate(90deg);
+	        transform: rotate(90deg);	
+	
+}	
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper,
+
+
+
+	
+	
+	
